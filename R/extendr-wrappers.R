@@ -12,3 +12,7 @@ NULL
 #' @export
 hello_world <- function() .Call(wrap__hello_world)
 
+#' Add two interegers and return the result to R.
+#' @export
+add <- function(x, y) .Call(wrap__add, x, y)
+
